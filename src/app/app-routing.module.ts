@@ -9,6 +9,11 @@ const routes: Routes = [
     path: '',
     component: HeaderFooterLayoutComponent,
     loadChildren: () => import('./views/home/home.module').then(c => c.HomeModule)
+  },
+  {
+    path: 'news',
+    component: HeaderFooterLayoutComponent,
+    loadChildren: () => import('./views/news/news.module').then(c => c.NewsModule)
   }
 ];
 
