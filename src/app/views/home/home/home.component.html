@@ -1,0 +1,210 @@
+<section class="home-slider position-relative">
+    <div class="col-md-12">
+        <video class="w-100 rounded" [muted]="true" [autoplay]="true" loop>
+            <source src="/assets/videos/المنتدي الاول.mp4" type="video/mp4">
+        </video>
+    </div>
+    <!--end col-->
+</section>
+
+<!-- Start Event and News -->
+<div class="container mt-100 mt-60">
+    <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="1000">
+        <div class="col-12 text-center">
+            <div class="section-title mb-4 pb-2">
+                <h4 class="title mb-4">أخر الأخبار</h4>
+            </div>
+        </div>
+        <!--end col-->
+    </div>
+    <!--end row-->
+
+    <div class="row" data-aos="fade-up" [attr.data-aos-duration]="1000 + (0 * 200)">
+        <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleInterval" [attr.data-bs-slide-to]="0"
+                    [ngClass]="{'active': true}" [attr.aria-current]="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" [attr.data-bs-slide-to]="1"
+                    [ngClass]="{'active': false}" [attr.aria-current]="true" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleInterval" [attr.data-bs-slide-to]="2"
+                    [ngClass]="{'active': false}" [attr.aria-current]="true" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner mb-5 pb-3">
+                <div class="carousel-item" data-bs-interval="2000" [ngClass]="{'active': true}">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/202204101138463846.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">حالة واحدة فقط يمكن من خلالها إجراء مباراة فاصلة بين ليفربول ومان سيتى</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/202110030552255225.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">30 يونيو.. آخر موعد لتسجيل رقم المحمول على بطاقات التموين</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/2022033102030030.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">رئيس الزمالك يقرر عدم خوض المباريات على استاد القاهرة ويوقف مستحقات اللاعبين</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="2000" [ngClass]="{'active': false}">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/202110030552255225.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">30 يونيو.. آخر موعد لتسجيل رقم المحمول على بطاقات التموين</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/202204101138463846.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">حالة واحدة فقط يمكن من خلالها إجراء مباراة فاصلة بين ليفربول ومان سيتى</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/2022033102030030.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">رئيس الزمالك يقرر عدم خوض المباريات على استاد القاهرة ويوقف مستحقات اللاعبين</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="carousel-item" data-bs-interval="2000" [ngClass]="{'active': false}">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/202204101138463846.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">حالة واحدة فقط يمكن من خلالها إجراء مباراة فاصلة بين ليفربول ومان سيتى</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/2022033102030030.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">رئيس الزمالك يقرر عدم خوض المباريات على استاد القاهرة ويوقف مستحقات اللاعبين</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 mt-4 pt-2">
+                            <div class="card blog rounded border-0 shadow">
+                                <div class="position-relative">
+                                    <img src="https://img.youm7.com/large/202110030552255225.jpg" class="card-img-top rounded-top" alt="...">
+                                    <div class="overlay rounded-top"></div>
+                                </div>
+                                <div class="card-body content">
+                                    <h5><a  href="javascript:void(0)" class="card-title title text-dark">30 يونيو.. آخر موعد لتسجيل رقم المحمول على بطاقات التموين</a></h5>
+                                    <div class="post-meta d-flex justify-content-between mt-3">
+                                        <a  href="javascript:void(0)" class="text-muted readmore">أقرأ المزيد<i class="uil uil-angle-right-b align-middle fliped-icons"></i></a>
+                                    </div>
+                                </div>
+                                <div class="author">
+                                    <!-- <small class="text-light date"><i class="uil uil-calendar-alt"></i>{{ '2022-05-17T22:55:40.451Z' | date:'longDate' }}</small> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!--end col-->
+    </div>
+    <!--end row-->
+</div>
+<!--end container-->
+<!-- End Event and News -->

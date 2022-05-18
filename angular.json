@@ -1,0 +1,145 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "iyseo-frontend": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        },
+        "@schematics/angular:application": {
+          "strict": true
+        }
+      },
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/iyseo-frontend",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss",
+              "src/assets/styles/global.scss",
+              "src/assets/styles/css/bootstrap.min.css",
+              "src/assets/styles/css/materialdesignicons.min.css",
+              "src/assets/styles/css/tiny-slider.css",
+              "src/assets/styles/css/tobii.min.css",
+              "src/assets/styles/css/datepicker.min.css",
+              "src/assets/styles/css/colors/default.css",
+              "./node_modules/aos/dist/aos.css",
+              "node_modules/ngx-toastr/toastr.css"
+            ],
+            "scripts": [
+              "src/assets/styles/js/app.js",
+              "src/assets/styles/js/bootstrap.bundle.min.js",
+              "src/assets/styles/js/plugins.init.js",
+              "src/assets/styles/js/switcher.js",
+              "src/assets/styles/js/tiny-slider.js",
+              "src/assets/styles/js/tobii.min.js",
+              "src/assets/styles/js/datepicker.min.js"
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "4mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.prod.ts"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "iyseo-frontend:build:production"
+            },
+            "development": {
+              "browserTarget": "iyseo-frontend:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "iyseo-frontend:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "src/test.ts",
+            "polyfills": "src/polyfills.ts",
+            "tsConfig": "tsconfig.spec.json",
+            "karmaConfig": "karma.conf.js",
+            "inlineStyleLanguage": "scss",
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.scss",
+              "src/assets/styles/global.scss",
+              "src/assets/styles/css/bootstrap.min.css",
+              "src/assets/styles/css/materialdesignicons.min.css",
+              "src/assets/styles/css/tiny-slider.css",
+              "src/assets/styles/css/tobii.min.css",
+              "src/assets/styles/css/datepicker.min.css",
+              "src/assets/styles/css/colors/default.css",
+              "./node_modules/aos/dist/aos.css",
+              "node_modules/ngx-toastr/toastr.css"
+            ],
+            "scripts": [
+              "src/assets/styles/js/app.js",
+              "src/assets/styles/js/bootstrap.bundle.min.js",
+              "src/assets/styles/js/plugins.init.js",
+              "src/assets/styles/js/switcher.js",
+              "src/assets/styles/js/tiny-slider.js",
+              "src/assets/styles/js/tobii.min.js",
+              "src/assets/styles/js/datepicker.min.js"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "iyseo-frontend"
+}

@@ -1,0 +1,63 @@
+<!-- Navbar STart -->
+<header id="topnav" class="defaultscroll sticky">
+    <div class="container">
+        <!-- Logo container-->
+        <a class="logo" href="index.html">
+            <img src="/assets/images/logo-text.png" height="50" class="logo-light-mode" alt="">
+            <img src="/assets/images/logo-text-dark.png" height="50" class="logo-dark-mode" alt="">
+        </a>
+
+        <!-- Logo End -->
+
+        <!-- End Logo container-->
+        <div class="menu-extras">
+            <div class="menu-item">
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                    <div class="lines">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+                <!-- End mobile menu toggle-->
+            </div>
+        </div>
+
+        <!--Login button Start-->
+        <ul class="buy-button list-inline mb-0">
+            <li class="list-inline-item ps-1 mb-0">
+                <a routerLink="/" style="padding-right: 0px; padding-left: 0px; padding-top: 20px">
+                    <div class="btn btn-icon btn-pills btn-primary">
+                        <img [src]="'/assets/icons/user.svg'" class="fea rounded-circle" style="filter: brightness(0) invert(1);"/>
+                    </div>
+                </a>
+            </li>
+
+            <li class="list-inline-item ps-1 mb-0">
+                <a target="_blank" style="padding-right: 0px; padding-left: 0px; padding-top: 20px">
+                    <div class="btn btn-icon btn-pills btn-primary"><i data-feather="globe"
+                            class="fea icon-sm"></i></div>
+                </a>
+            </li>
+        </ul>
+        <!--Login button End-->
+
+        <div id="navigation">
+            <!-- Navigation Menu-->
+            <ul class="navigation-menu">
+                <li><a routerLink="/" class="sub-menu-item">الرئيسيه</a></li>
+                <li><a  class="sub-menu-item">الأخبار</a></li>
+                <li><a  class="sub-menu-item">أخبار عاجله</a></li>
+                <li><a  class="sub-menu-item">أنشطة المكتب</a></li>
+                <li><a  class="sub-menu-item">تواصل معنا</a></li>
+                <li><a  class="sub-menu-item">عن المنتدى</a></li>
+            </ul>
+            <!--end navigation menu-->
+        </div>
+        <!--end navigation-->
+    </div>
+    <!--end container-->
+</header>
+<!--end header-->
+<!-- Navbar End -->
