@@ -14,6 +14,16 @@ const routes: Routes = [
     path: 'news',
     component: HeaderFooterLayoutComponent,
     loadChildren: () => import('./views/news/news.module').then(c => c.NewsModule)
+  },
+  {
+    path: 'videos',
+    component: HeaderFooterLayoutComponent,
+    loadChildren: () => import('./views/videos/videos.module').then(c => c.VideosModule)
+  },
+  {
+    path: 'contact-us',
+    component: HeaderFooterLayoutComponent,
+    loadChildren: () => import('./views/contact-us/contact-us.module').then(c => c.ContactUsModule)
   }
 ];
 
