@@ -39,7 +39,7 @@
 .tns-controls button[data-controls="prev"]:hover, 
 .tns-controls button[data-controls="next"]:hover,
 .back-to-top {
-    background-color: #129F4B !important;
+    background-color: #0096EE !important;
 }
 
 .text-primary,
@@ -101,7 +101,7 @@
 .accordion .accordion-button:not(.collapsed),
 .accordion .accordion-item .accordion-button:before,
 #navmenu-nav li.active a {
-    color: #129F4B !important;
+    color: #0096EE !important;
 }
 
 .btn-primary,
@@ -139,7 +139,7 @@
 .container-filter li.active, .container-filter li:hover,
 .blockquote-wrapper .blockquote,
 .blockquote-wrapper .blockquote:after {
-    border-color: #129F4B !important;
+    border-color: #0096EE !important;
 }
 
 .bg-soft-primary,
@@ -197,7 +197,7 @@
 }
 
 .social-icon li a:hover .fea-social {
-    fill: #129F4B;
+    fill: #0096EE;
 }
 
 .bg-circle-gradiant {
@@ -205,7 +205,7 @@
 }
 
 .bg-gradient-primary {
-  background: linear-gradient(to left, #614092 0%, #129F4B 100%);
+  background: linear-gradient(to left, #614092 0%, #0096EE 100%);
 }
 
 .tns-nav button {
@@ -236,17 +236,17 @@
 }
 
 .play-icon i {
-    -webkit-text-stroke: 2px #129F4B;
+    -webkit-text-stroke: 2px #0096EE;
     -webkit-text-fill-color: transparent;
 }
 
 .play-icon i:hover {
-    -webkit-text-stroke: 2px #129F4B;
-    -webkit-text-fill-color: #129F4B;
+    -webkit-text-stroke: 2px #0096EE;
+    -webkit-text-fill-color: #0096EE;
 }
 a.text-primary:hover, 
 a.text-primary:focus {
-    color: #129F4B !important;
+    color: #0096EE !important;
 }
 
 .btn-primary:hover, 
@@ -254,16 +254,16 @@ a.text-primary:focus {
 .btn-primary:active, 
 .btn-primary.active, 
 .btn-primary.focus {
-    background-color: #129F4B !important;
-    border-color: #129F4B !important;
+    background-color: #0096EE !important;
+    border-color: #0096EE !important;
 }
 
 .ribbon.ribbon-primary span:before {
-    border-left-color: #129F4B;
-    border-top-color: #129F4B;
+    border-left-color: #0096EE;
+    border-top-color: #0096EE;
 }
 
 .ribbon.ribbon-primary span:after {
-    border-right-color: #129F4B;
-    border-top-color: #129F4B;
+    border-right-color: #0096EE;
+    border-top-color: #0096EE;
 }
