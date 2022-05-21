@@ -3,12 +3,18 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
 import { HeaderFooterLayoutComponent } from 'src/app/shared/layout/header-footer-layout/header-footer-layout.component'
+import { BlankLayoutComponent } from './shared/layout/blank-layout/blank-layout.component';
 
 const routes: Routes = [
   {
     path: '',
     component: HeaderFooterLayoutComponent,
     loadChildren: () => import('./views/home/home.module').then(c => c.HomeModule)
+  },
+  {
+    path: 'auth',
+    component: BlankLayoutComponent,
+    loadChildren: () => import('./views/auth/auth.module').then(c => c.AuthModule)
   },
   {
     path: 'news',

@@ -98,8 +98,8 @@ h6, .h6 {
 }
 
 .bg-soft-primary {
-  background-color: rgba(18, 159, 75, 0.1) !important;
-  border: 1px solid rgba(18, 159, 75, 0.1) !important;
+  background-color: rgba(17, 92, 158, 0.1) !important;
+  border: 1px solid rgba(17, 92, 158, 0.1) !important;
   color: #0096EE !important;
 }
 
@@ -260,8 +260,8 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .bg-soft-blue {
-  background-color: rgba(18, 159, 75, 0.1) !important;
-  border: 1px solid rgba(18, 159, 75, 0.1) !important;
+  background-color: rgba(17, 92, 158, 0.1) !important;
+  border: 1px solid rgba(17, 92, 158, 0.1) !important;
   color: #0096EE !important;
 }
 
@@ -529,7 +529,7 @@ video:focus {
   background-color: #0096EE !important;
   border: 1px solid #0096EE !important;
   color: #ffffff !important;
-  box-shadow: 0 3px 5px 0 rgba(18, 159, 75, 0.1);
+  box-shadow: 0 3px 5px 0 rgba(17, 92, 158, 0.1);
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.focus {
@@ -542,7 +542,7 @@ video:focus {
   background-color: rgba(18, 159, 75, 0.05) !important;
   border: 1px solid rgba(18, 159, 75, 0.05) !important;
   color: #0096EE !important;
-  box-shadow: 0 3px 5px 0 rgba(18, 159, 75, 0.1);
+  box-shadow: 0 3px 5px 0 rgba(17, 92, 158, 0.1);
 }
 
 .btn-soft-primary:hover, .btn-soft-primary:focus, .btn-soft-primary:active, .btn-soft-primary.active, .btn-soft-primary.focus {
@@ -561,7 +561,7 @@ video:focus {
   background-color: #0096EE;
   border-color: #0096EE;
   color: #ffffff !important;
-  box-shadow: 0 3px 5px 0 rgba(18, 159, 75, 0.1);
+  box-shadow: 0 3px 5px 0 rgba(17, 92, 158, 0.1);
 }
 
 .btn-secondary {
@@ -880,7 +880,7 @@ video:focus {
   background-color: #0096EE !important;
   border: 1px solid #0096EE !important;
   color: #ffffff !important;
-  box-shadow: 0 3px 5px 0 rgba(18, 159, 75, 0.1);
+  box-shadow: 0 3px 5px 0 rgba(17, 92, 158, 0.1);
 }
 
 .btn-blue:hover, .btn-blue:focus, .btn-blue:active, .btn-blue.active, .btn-blue.focus {
@@ -893,7 +893,7 @@ video:focus {
   background-color: rgba(18, 159, 75, 0.05) !important;
   border: 1px solid rgba(18, 159, 75, 0.05) !important;
   color: #0096EE !important;
-  box-shadow: 0 3px 5px 0 rgba(18, 159, 75, 0.1);
+  box-shadow: 0 3px 5px 0 rgba(17, 92, 158, 0.1);
 }
 
 .btn-soft-blue:hover, .btn-soft-blue:focus, .btn-soft-blue:active, .btn-soft-blue.active, .btn-soft-blue.focus {
@@ -912,7 +912,7 @@ video:focus {
   background-color: #0096EE;
   border-color: #0096EE;
   color: #ffffff !important;
-  box-shadow: 0 3px 5px 0 rgba(18, 159, 75, 0.1);
+  box-shadow: 0 3px 5px 0 rgba(17, 92, 158, 0.1);
 }
 
 .btn-footer {
@@ -2166,7 +2166,7 @@ p {
   width: 90rem;
   height: 35rem;
   transform: rotate(78.75deg);
-  background: linear-gradient(90deg, rgba(18, 159, 75, 0.3), transparent);
+  background: linear-gradient(90deg, rgba(17, 92, 158, 0.3), transparent);
   z-index: 1;
 }
 
@@ -3034,7 +3034,7 @@ p {
 }
 
 .bg-circle-gradiant {
-  background: radial-gradient(circle at 50% 50%, rgba(18, 159, 75, 0.1) 0%, rgba(18, 159, 75, 0.1) 33.333%, rgba(18, 159, 75, 0.2) 33.333%, rgba(18, 159, 75, 0.2) 66.666%, rgba(18, 159, 75, 0.3) 66.666%, rgba(18, 159, 75, 0.3) 99.999%);
+  background: radial-gradient(circle at 50% 50%, rgba(17, 92, 158, 0.1) 0%, rgba(17, 92, 158, 0.1) 33.333%, rgba(17, 92, 158, 0.2) 33.333%, rgba(17, 92, 158, 0.2) 66.666%, rgba(17, 92, 158, 0.3) 66.666%, rgba(17, 92, 158, 0.3) 99.999%);
 }
 
 .it-home {
@@ -3383,7 +3383,7 @@ p {
 /*     Features & Services       */
 /*===============================*/
 .features .icon {
-  background: rgba(18, 159, 75, 0.1);
+  background: rgba(17, 92, 158, 0.1);
 }
 
 .features .image:before {
@@ -3395,14 +3395,14 @@ p {
   height: 64px;
   border-radius: 6px;
   transform: rotate(33.75deg);
-  background: linear-gradient(45deg, transparent, rgba(18, 159, 75, 0.1));
+  background: linear-gradient(45deg, transparent, rgba(17, 92, 158, 0.1));
 }
 
 .features.feature-clean .icons i {
   height: 65px;
   width: 65px;
   line-height: 65px;
-  background-color: rgba(18, 159, 75, 0.1);
+  background-color: rgba(17, 92, 158, 0.1);
 }
 
 .features.feature-clean .title:hover {
@@ -3418,7 +3418,7 @@ p {
 }
 
 .features:hover .image:before {
-  background: rgba(18, 159, 75, 0.1);
+  background: rgba(17, 92, 158, 0.1);
   animation: spinner-border 5s linear infinite !important;
 }
 
@@ -3665,8 +3665,8 @@ p {
 .saas-feature-shape-right:after,
 .social-feature-left:after,
 .social-feature-right:after {
-  background: rgba(18, 159, 75, 0.1);
-  box-shadow: 0 0 40px rgba(18, 159, 75, 0.1);
+  background: rgba(17, 92, 158, 0.1);
+  box-shadow: 0 0 40px rgba(17, 92, 158, 0.1);
 }
 
 .app-feature-shape-right:after,
@@ -4727,7 +4727,7 @@ p {
   width: 50px;
   height: 50px;
   border-radius: 50px;
-  background: rgba(18, 159, 75, 0.1);
+  background: rgba(17, 92, 158, 0.1);
   line-height: 48px;
   border: 2px solid #ffffff;
   box-shadow: 0px 0px 2px 0.25px rgba(18, 159, 75, 0.5);

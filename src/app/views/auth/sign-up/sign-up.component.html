@@ -7,11 +7,21 @@
                 <div class="form-signin p-4 bg-white rounded shadow">
                     <form>
                         <a href="index.html"><img src="assets/images/logo-text.png" class="avatar avatar-small mb-4 d-block mx-auto" alt=""></a>
-                        <h5 class="mb-3 text-center">تسجيل دخول</h5>
+                        <h5 class="mb-3 text-center">تسجيل مستخدم جديد</h5>
+                    
+                        <div class="form-floating mb-2">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="Harry" required>
+                            <label for="floatingInput">الأسم</label>
+                        </div>
 
                         <div class="form-floating mb-2">
                             <input type="email" class="form-control" id="floatingEmail" placeholder="name@example.com" required>
                             <label for="floatingEmail">الإيميل</label>
+                        </div>
+                    
+                        <div class="form-floating mb-2">
+                            <input type="tel" class="form-control" id="floatingInput" placeholder="Harry" required>
+                            <label for="floatingInput">رقم الهاتف</label>
                         </div>
 
                         <div class="form-floating mb-3">
@@ -22,7 +32,7 @@
                         <button class="btn btn-primary w-100" type="submit">تسجيل</button>
 
                         <div class="col-12 text-center mt-3">
-                            <p class="mb-0 mt-3"><small class="text-dark me-2">ليس لديك حساب  </small> <a routerLink="/auth/sign-up" class="text-dark fw-bold">تسجيل مستخدم</a></p>
+                            <p class="mb-0 mt-3"><small class="text-dark me-2">لديك حساب بالفعل </small> <a routerLink="/auth/sign-in" class="text-dark fw-bold">تسجيل دخول</a></p>
                         </div><!--end col-->
 
                         <p class="mb-0 text-muted mt-3 text-center">© <script>document.write(new Date().getFullYear())</script> IYSEO.</p>

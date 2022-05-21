@@ -27,7 +27,7 @@
         <!--Login button Start-->
         <ul class="buy-button list-inline mb-0">
             <li class="list-inline-item ps-1 mb-0">
-                <a routerLink="/" style="padding-right: 0px; padding-left: 0px; padding-top: 20px">
+                <a routerLink="/auth/sign-in" style="padding-right: 0px; padding-left: 0px; padding-top: 20px">
                     <div class="btn btn-icon btn-pills btn-primary">
                         <img [src]="'/assets/icons/user.svg'" class="fea rounded-circle" style="filter: brightness(0) invert(1);"/>
                     </div>
@@ -47,9 +47,16 @@
             <!-- Navigation Menu-->
             <ul class="navigation-menu">
                 <li><a routerLink="/" class="sub-menu-item">الرئيسيه</a></li>
-                <li><a  class="sub-menu-item">الأخبار</a></li>
-                <li><a  class="sub-menu-item">أخبار عاجله</a></li>
-                <li><a  class="sub-menu-item">أنشطة المكتب</a></li>
+                <li class="has-submenu parent-menu-item">
+                    <a >الأخبار</a><span class="menu-arrow"></span>
+                    <ul class="submenu">
+                        <li><a href="documentation.html" class="sub-menu-item">عاجل</a></li>
+                        <li><a href="changelog.html" class="sub-menu-item">رياضه</a></li>
+                        <li><a href="components.html" class="sub-menu-item">سياسه</a></li>
+                        <li><a href="widget.html" class="sub-menu-item">تقارير</a></li>
+                    </ul>
+                </li>
+                <li><a routerLink="/news/events" class="sub-menu-item">أنشطة المكتب</a></li>
                 <li><a routerLink="/contact-us"  class="sub-menu-item">تواصل معنا</a></li>
                 <li><a routerLink="/videos" class="sub-menu-item">فيديوهات</a></li>
             </ul>
