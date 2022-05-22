@@ -21,6 +21,15 @@
     }
 }
 
+.card-long {
+    height: 300px !important;
+    
+    img {
+        height: 100% !important;
+        width: auto !important;
+    }
+}
+
 .bg-home {
     background-repeat: no-repeat !important;
     background-size: cover !important;
